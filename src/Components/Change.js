@@ -1,12 +1,13 @@
+import { getNodeText } from '@testing-library/react'
 import React, {Component} from 'react'
 
 class Change extends Component {
   render() {
     return(
       <div>
-        <button> Previous </button>
+        <div onClick={this.props.previousPage}> Previous </div>
         <section></section>
-        <button> Next </button>
+        <div onClick={this.props.nextPage}> Next </div>
       </div>
     )
   }

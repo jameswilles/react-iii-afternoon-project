@@ -1,3 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .App {
+  background-color: #232323;
+  color: white;
   text-align: center;
+  height: 100vh;
+}
+
+header {
+  background-color: #00c3f1;
+  width: 100vw;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.display-div {
+  background-color: white;
+  color: black;
+  margin: 50px 50px 10px 50px;
+  display: block;
+  text-align: left;
+  padding: 30px 50px;
+  height: 350px;
+}
+
+.user-name {
+  text-decoration: underline;
+  text-decoration-color: #00c3f1;
+}
+
+.personal-info {
+  display: inline;
+}
+
+#home {
+  color: black;
 }
