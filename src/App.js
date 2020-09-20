@@ -9,7 +9,7 @@ class App extends Component{
     super()
 
     this.state = {
-      page: 12
+      page: 0
     }
     this.nextPage = this.nextPage.bind(this)
     this.previousPage = this.previousPage.bind(this)

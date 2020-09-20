@@ -23,9 +23,9 @@ class Display extends Component {
         </section>
         <section>
           <h2> Favorite Movies: </h2>
-          <p> 1. {displayedUser.favoriteMovies[0]}</p>
-          <p> 2. {displayedUser.favoriteMovies[1]}</p>
-          <p> 3. {displayedUser.favoriteMovies[2]}</p>
+          <p> 1. {displayedUser.favoriteMovies[0]} </p>
+          <p> 2. {displayedUser.favoriteMovies[1]} </p>
+          <p> 3. {displayedUser.favoriteMovies[2]} </p>
         </section>
       </div>
     )
