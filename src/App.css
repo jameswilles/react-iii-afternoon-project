@@ -21,6 +21,7 @@ header {
 }
 
 .display-div {
+  position: relative;
   background-color: white;
   color: black;
   margin: 50px 50px 10px 50px;
@@ -33,7 +34,8 @@ header {
 .user-name {
   text-decoration: underline;
   text-decoration-color: #00c3f1;
-  margin: 0px 0px 20px
+  margin: 0px 0px 20px;
+  font-size: 30px;
 }
 
 .personal-info {
@@ -43,4 +45,50 @@ header {
 
 #home {
   color: black;
+}
+
+.info-line {
+  margin: 5px 0px;
+  font-size: 20px
+}
+
+.movies-list {
+  margin: 15px 0px;
+  font-size: 20px;
+}
+
+.change-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 50px;
+}
+
+.movie {
+  position: relative;
+  left: 35px;
+  margin: 5px 0px;
+}
+
+.user-number {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.edit-button {
+  display: inline-block;
+  background-color: #00c3f1;
+  margin: 0px 5px;
+  height: 25px;
+  width: 65px;
+  text-align: center;
+  padding: 3px;
+  border-radius: 10px;
+  font-weight: bold;
 }
